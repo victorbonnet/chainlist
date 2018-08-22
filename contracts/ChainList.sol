@@ -55,7 +55,7 @@ contract ChainList is Ownable {
     LogSellArticle(articleCounter, msg.sender, _name, _price);
   }
 
-  // detch the number of articles in the contract
+  // fetch the number of articles in the contract
   function getNumberOfArticles() public view returns (uint) {
     return articleCounter;
   }
